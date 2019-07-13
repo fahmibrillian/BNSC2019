@@ -1,0 +1,663 @@
+
+/* Font Setting */
+
+ @font-face { font-family: Montserrat; src: url('../fonts/Montserrat-Light.otf'); }
+ @font-face { font-family: Montserrat; font-weight: bold; src: url('../fonts/Montserrat-Bold.otf');}
+
+/* Font Awesome */
+@import url("./font-awesome/font-awesome.css");
+
+body{
+	background-color: #1e2024;
+	font-family: Montserrat;
+    font-weight: normal;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a{
+	text-decoration: none;
+}
+
+a .parenting-link{
+    color:inherit;
+}
+
+a {
+    color:white;
+}
+
+a:hover{
+    color:#0095d6;
+}
+
+.btn-success{
+    background-color: #b7f01f !important;
+}
+
+.success{
+    color: #b7f01f !important;
+}
+
+.nav-title{
+    position: relative;
+    display: block;
+    z-index: 510;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.middled{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.header-link{
+	background-color: #292c31;
+	height: 50px;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	margin-top: 0px;
+}
+
+.menu-link{
+	background-color: #292c31;
+	height: 50px;
+	display: flex;
+	align-items: center; /* align vertical */
+}
+
+.link-head{
+	color: #fff;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.bg-blued{
+	background-color: #0095d6;
+}
+.blued{
+	color: #0095d6;
+}
+
+.red{
+	color: red;
+}
+
+.greened{
+	color: #c2ff1f;
+}
+
+.whited{
+	color: white;
+}
+
+.bg-blacked{
+	background-color: #1e2024;
+	height: 100px;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+#centered-leaderboard{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.btn-blued {
+    display: inline-block;
+    z-index: 510;
+    height: 50px;
+    padding-right:20px;
+    padding-left:20px;
+    line-height: 50px;
+    background: #0095d6;
+
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.socmed{
+    line-height: 50px;
+    margin-left: 10px;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn-blacked {
+    display: inline-block;
+    z-index: 510;
+    height: 50px;
+    margin:0;
+    padding-right:20px;
+    padding-left:20px;
+    line-height: 50px;
+    background: #292c31;
+
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.centered{
+
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.f18{
+	font-size: 18pt !important;
+}
+
+.f14{
+	font-size: 14pt !important;;
+}
+
+.f12{
+	font-size: 12pt !important;;
+}
+
+.f10{
+	font-size: 10pt !important;;
+}
+
+.f8{
+    font-size: 8pt !important;;
+}
+
+
+.bold{
+	font-weight: 900;
+}
+
+#top-about{
+    margin-top: 75px;
+}
+
+
+.menu{
+    margin-top: 90px;
+}
+.display-inline{
+	display: inline;
+}
+
+.nav,
+.nav a,
+.nav ul,
+.nav li,
+.nav div,
+.nav form,
+.nav input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.nav a { text-decoration: none; }
+
+.nav li { list-style: none; }
+
+.nav {
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 500;
+}
+
+.nav > li {
+    display: block;
+    float: left;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    z-index: 510;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 54px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.nav > li:hover > a { background: #0095d6; }
+
+.hover-blued{ background: #0095d6; }
+
+.nav > li:first-child > a {
+    border-left: none;
+}
+
+.nav > li > div {
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50px;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+
+    background: #1e2024;
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+}
+
+.nav > li:hover > div {
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+}
+
+.nav .nav-column {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+}
+
+.nav .nav-column h3 {
+    margin: 20px 0 10px 0;
+    line-height: 18px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #372f2b;
+    text-transform: uppercase;
+}
+
+.nav .nav-column h3.whited { color: #fff; }
+
+.nav .nav-column li a {
+    display: block;
+    line-height: 26px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #888888;
+}
+
+.nav .nav-column li a:hover { color: #666666; }
+
+.klip {
+  /* NOPE */
+  clip-path: rect(10px, 20px, 30px, 40px);
+}
+
+/*Carousel*/
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #fff;
+    border-color: #fff;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../images/slide1.png);
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../images/slide2.png);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../images/slide3.png);
+}
+
+/*End Carousel*/
+
+.logo-top{
+    position: relative;
+    height: 40%;
+    width: 40%;
+}
+
+.search{
+    background-color:#1e2024 ;
+    position: relative;
+    transform: translate(230px,-110px);
+    width: 300px;
+    border-radius: 0.5em;
+}
+
+.logo-Bottom{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.text-logo-bot{
+    margin-left: -30px;
+}
+
+.box-bordered{
+    background-color: #292c31;
+    border-radius: 0.2em;
+    border-color:grey;
+    border-style: solid;
+    margin : 5px;
+    border-width: thin;
+}
+
+.box-socmed{
+    background-color: #292c31;
+    border-radius: 0.5em;
+    border-color:white;
+    border-style: solid;
+}
+
+.bordered-blue-side{
+    border-left: 10px solid #0095d6;
+}
+
+.overlay-game-image {
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.game-image{
+    height: 190px;
+    width: 348px;
+    margin: 0;
+    margin-left: -15px;
+    object-fit: cover;
+}
+
+.leaderboard{
+    height: 490px;width: 320px;
+}
+
+.table{
+    background: #212529 !important;
+    color: white !important;
+    min-height: 280px;
+    max-height: 570px;
+}
+
+.title{
+    color: white;
+    border-radius: 0.1em;
+    margin-top: -170px;
+    height: 170px;
+    font-size: larger;
+}
+
+.title span{
+    background-color: #0095d6;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-game{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.play-btn{
+    border-radius: 50%;
+    height: 50px;
+    transform: translate(250px,-20px);
+}
+
+.play-btn span{
+    font-size: x-large;
+}
+
+.modal-content{
+    background-color: #333;
+    color: #fff;
+    border-radius: 0.1em;
+}
+
+.modal-body{
+    min-height:400px;
+}
+
+.modal-lg {
+    min-width: 1200px;
+}
+
+.game-board{
+    border-radius: 0.2em;
+    border-color:grey;
+    border-style: solid;
+    margin : 5px;
+    border-width: thin;
+    height: 440px;
+    width: 840px;
+    text-align: center;
+}
+
+.socmed-box{
+    border-radius: 0.2em;
+    height: 280px;
+    text-align: center;
+}
+
+.socmed-box span{
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.fb{
+    background-color: #43609c;
+}
+
+.tw{
+    background-color: #3fcef2;
+}
+
+.rss{
+    background-color: #ffcc00;
+}
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pagination a.active {
+    background-color: #0095d6;
+    color: white;
+    border: 1px solid #0095d6;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.footer{
+    background-color: #191b1e;
+}
+
+.footer-box{
+    margin-bottom: 20px;
+}
+
+.copyright{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.box-footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }
+}
+

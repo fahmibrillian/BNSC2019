@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flying Dragon</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        ::selection{
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="board"></canvas>
+    <div class="pause-container hidden">
+        <h2>PAUSED</h2>
+        <p>Press <b>P</b> to continue. </p>
+    </div>
+    <div class="lose-container hidden">
+        <h2>GAME OVER</h2>
+        <div class="get-highscore hidden">
+            <p>You get the highest score! Input your name below. </p>
+            <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Input your name" autocomplete="off" autofocus>
+                <button id="btnSubmit">Submit</button>
+            </div>
+        </div>
+        <div class="gameover hidden">
+            <p>Sorry, you need more training</p>
+            <button id="btnRestart">Restart</button>
+        </div>
+    </div>
+    <div class="highscore-container">
+        <h2>HighScore</h2>
+        <p>Name  : <span id="highscoreName"></span></p>
+        <p>Score : <span id="highscoreScore"></span></p>
+    </div>
+    <div class="start-container">
+        <img src="assets/img/background/background.png" alt="">
+        <h2>Flying Dragon</h2>
+        <p>The Adventure of Blue Dragon.</p>
+        <button id="btnStart">Start</button>
+    </div>
+    <!--script library-->
+    <script src="assets/scripts/object/Background.js"></script>
+    <script src="assets/scripts/object/Coin.js"></script>
+    <script src="assets/scripts/object/Obstacle.js"></script>
+    <script src="assets/scripts/object/Dragon.js"></script>
+    <script src="assets/scripts/object/Text.js"></script>
+    <script src="assets/scripts/config.js"></script>
+    <script src="assets/scripts/Game.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
