@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1279dde2-e58f-4bcc-9ccd-f4da91245f61" name="Default Changelist" comment="" />
+    <list default="true" id="1279dde2-e58f-4bcc-9ccd-f4da91245f61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +23,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layout/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="448" column="63" selection-start-line="448" selection-start-column="63" selection-end-line="448" selection-end-column="63" />
+            <state relative-caret-position="272">
+              <caret line="918" column="72" selection-start-line="918" selection-start-column="72" selection-end-line="918" selection-end-column="72" />
               <folding>
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#16717#16724#1" expanded="true" />
@@ -35,8 +39,10 @@
                 <element signature="e#20755#20761#1" expanded="true" />
                 <element signature="e#11372#11379#1" expanded="true" />
                 <element signature="e#13415#13422#1" expanded="true" />
-                <element signature="e#15367#15374#1" expanded="true" />
-                <element signature="e#17319#17326#1" expanded="true" />
+                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#29539#29546#1" expanded="true" />
+                <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#33166#33173#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1052">
-              <caret line="652" column="18" selection-start-line="652" selection-start-column="18" selection-end-line="652" selection-end-column="18" />
+            <state relative-caret-position="377">
+              <caret line="669" column="11" selection-start-line="669" selection-start-column="11" selection-end-line="669" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -63,9 +69,19 @@
       <find>.success</find>
       <find>game-bo</find>
       <find>logo</find>
-      <find>menu</find>
       <find>search</find>
+      <find>menu</find>
+      <find>header-link</find>
+      <find>id=&quot;email&quot;</find>
+      <find>registerMo</find>
+      <find>for=&quot;email&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,6 +97,7 @@
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,6 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/xampp/htdocs/stp-trisakti" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -140,12 +158,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562973746392</updated>
-      <workItem from="1562973747607" duration="18701000" />
+      <workItem from="1562973747607" duration="24652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18701000" />
+    <option name="totallyTimeSpent" value="24652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -185,18 +203,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="652" column="18" selection-start-line="652" selection-start-column="18" selection-end-line="652" selection-end-column="18" />
+        <state relative-caret-position="377">
+          <caret line="669" column="11" selection-start-line="669" selection-start-column="11" selection-end-line="669" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="448" column="63" selection-start-line="448" selection-start-column="63" selection-end-line="448" selection-end-column="63" />
+        <state relative-caret-position="272">
+          <caret line="918" column="72" selection-start-line="918" selection-start-column="72" selection-end-line="918" selection-end-column="72" />
           <folding>
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="e#16717#16724#1" expanded="true" />
@@ -209,8 +226,10 @@
             <element signature="e#20755#20761#1" expanded="true" />
             <element signature="e#11372#11379#1" expanded="true" />
             <element signature="e#13415#13422#1" expanded="true" />
-            <element signature="e#15367#15374#1" expanded="true" />
-            <element signature="e#17319#17326#1" expanded="true" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#29539#29546#1" expanded="true" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#33166#33173#1" expanded="true" />
           </folding>
         </state>
       </provider>

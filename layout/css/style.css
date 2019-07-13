@@ -39,7 +39,7 @@ a:hover{
     color: #b7f01f !important;
 }
 
-.nav-title{
+.nav-title {
     position: relative;
     display: block;
     z-index: 510;
@@ -51,7 +51,7 @@ a:hover{
     font-weight: bold;
     font-size: 13px;
     color: #fff;
-    text-shadow: 0 0 1px rgba(0,0,0,.35);
+    text-shadow: 0 0 1px rgba(0, 0, 0, .35);
 
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -73,6 +73,11 @@ a:hover{
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
 	margin-top: 0px;
+    z-index: 2;
+}
+
+.header-atas{
+    z-index: 1;
 }
 
 .menu-link{
@@ -101,6 +106,10 @@ a:hover{
 
 .greened{
 	color: #c2ff1f;
+}
+
+.yellowed{
+    color: #f8a41d;
 }
 
 .whited{
@@ -331,22 +340,6 @@ a:hover{
 
 .nav .nav-column li a:hover { color: #666666; }
 
-.klip {
-  /* NOPE */
-  clip-path: rect(10px, 20px, 30px, 40px);
-}
-
-/*Carousel*/
-
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -366,9 +359,6 @@ Image credits: unsplash.com
   opacity: 1;
 }
 
-/********************************/
-/*          Hero Headers        */
-/********************************/
 .hero {
     position: absolute;
     top: 50%;
@@ -408,14 +398,6 @@ Image credits: unsplash.com
             transition: 2s all ease-in-out .1s;
 }
 
-/********************************/
-/*            Overlay           */
-/********************************/
-
-
-/********************************/
-/*          Custom Buttons      */
-/********************************/
 .btn.btn-lg {padding: 10px 40px;}
 .btn.btn-hero,
 .btn.btn-hero:hover,
@@ -427,9 +409,6 @@ Image credits: unsplash.com
     margin: 20px auto;
 }
 
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
@@ -653,7 +632,43 @@ Image credits: unsplash.com
     margin-bottom: 10px;
 }
 
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    color: #fff !important;
+}
 
+.modal-lg-custom{
+    width: 1000px !important;
+    min-height: 550px;
+}
+
+.modal-lg-custom img{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-register{
+    position: absolute;
+}
+
+.register-text{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 30px;
+}
+
+.logo-register{
+    position: relative;
+    margin-top: -40px;
+}
+
+.form-group{
+    margin: 10px;
+}
 @media screen and (min-width: 980px){
     .hero { width: 980px; }
 }
